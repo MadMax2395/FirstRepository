@@ -12,7 +12,7 @@ import GameplayKit
 class GameScene: SKScene {
     
     let ciro : String = "ciro"
-    
+    let massimo : String = "max"
     private var label : SKLabelNode?
     private var spinnyNode : SKShapeNode?
     
