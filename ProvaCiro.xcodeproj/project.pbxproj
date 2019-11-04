@@ -1,0 +1,603 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F14528C72370B98200D99285 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F14528C62370B98200D99285 /* AppDelegate.swift */; };
+		F14528C92370B98200D99285 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = F14528C82370B98200D99285 /* GameScene.sks */; };
+		F14528CB2370B98200D99285 /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = F14528CA2370B98200D99285 /* Actions.sks */; };
+		F14528CD2370B98200D99285 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = F14528CC2370B98200D99285 /* GameScene.swift */; };
+		F14528CF2370B98200D99285 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F14528CE2370B98200D99285 /* GameViewController.swift */; };
+		F14528D22370B98200D99285 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F14528D02370B98200D99285 /* Main.storyboard */; };
+		F14528D42370B98300D99285 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F14528D32370B98300D99285 /* Assets.xcassets */; };
+		F14528D72370B98300D99285 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F14528D52370B98300D99285 /* LaunchScreen.storyboard */; };
+		F14528E22370B98400D99285 /* ProvaCiroTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F14528E12370B98400D99285 /* ProvaCiroTests.swift */; };
+		F14528ED2370B98400D99285 /* ProvaCiroUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F14528EC2370B98400D99285 /* ProvaCiroUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F14528DE2370B98400D99285 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F14528BB2370B98200D99285 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F14528C22370B98200D99285;
+			remoteInfo = ProvaCiro;
+		};
+		F14528E92370B98400D99285 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F14528BB2370B98200D99285 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F14528C22370B98200D99285;
+			remoteInfo = ProvaCiro;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F14528C32370B98200D99285 /* ProvaCiro.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ProvaCiro.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F14528C62370B98200D99285 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F14528C82370B98200D99285 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		F14528CA2370B98200D99285 /* Actions.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Actions.sks; sourceTree = "<group>"; };
+		F14528CC2370B98200D99285 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		F14528CE2370B98200D99285 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		F14528D12370B98200D99285 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F14528D32370B98300D99285 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F14528D62370B98300D99285 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F14528D82370B98300D99285 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F14528DD2370B98400D99285 /* ProvaCiroTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ProvaCiroTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F14528E12370B98400D99285 /* ProvaCiroTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProvaCiroTests.swift; sourceTree = "<group>"; };
+		F14528E32370B98400D99285 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F14528E82370B98400D99285 /* ProvaCiroUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ProvaCiroUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F14528EC2370B98400D99285 /* ProvaCiroUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProvaCiroUITests.swift; sourceTree = "<group>"; };
+		F14528EE2370B98400D99285 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F14528C02370B98200D99285 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F14528DA2370B98400D99285 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F14528E52370B98400D99285 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F14528BA2370B98200D99285 = {
+			isa = PBXGroup;
+			children = (
+				F14528C52370B98200D99285 /* ProvaCiro */,
+				F14528E02370B98400D99285 /* ProvaCiroTests */,
+				F14528EB2370B98400D99285 /* ProvaCiroUITests */,
+				F14528C42370B98200D99285 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F14528C42370B98200D99285 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F14528C32370B98200D99285 /* ProvaCiro.app */,
+				F14528DD2370B98400D99285 /* ProvaCiroTests.xctest */,
+				F14528E82370B98400D99285 /* ProvaCiroUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F14528C52370B98200D99285 /* ProvaCiro */ = {
+			isa = PBXGroup;
+			children = (
+				F14528C62370B98200D99285 /* AppDelegate.swift */,
+				F14528C82370B98200D99285 /* GameScene.sks */,
+				F14528CA2370B98200D99285 /* Actions.sks */,
+				F14528CC2370B98200D99285 /* GameScene.swift */,
+				F14528CE2370B98200D99285 /* GameViewController.swift */,
+				F14528D02370B98200D99285 /* Main.storyboard */,
+				F14528D32370B98300D99285 /* Assets.xcassets */,
+				F14528D52370B98300D99285 /* LaunchScreen.storyboard */,
+				F14528D82370B98300D99285 /* Info.plist */,
+			);
+			path = ProvaCiro;
+			sourceTree = "<group>";
+		};
+		F14528E02370B98400D99285 /* ProvaCiroTests */ = {
+			isa = PBXGroup;
+			children = (
+				F14528E12370B98400D99285 /* ProvaCiroTests.swift */,
+				F14528E32370B98400D99285 /* Info.plist */,
+			);
+			path = ProvaCiroTests;
+			sourceTree = "<group>";
+		};
+		F14528EB2370B98400D99285 /* ProvaCiroUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F14528EC2370B98400D99285 /* ProvaCiroUITests.swift */,
+				F14528EE2370B98400D99285 /* Info.plist */,
+			);
+			path = ProvaCiroUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F14528C22370B98200D99285 /* ProvaCiro */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F14528F12370B98400D99285 /* Build configuration list for PBXNativeTarget "ProvaCiro" */;
+			buildPhases = (
+				F14528BF2370B98200D99285 /* Sources */,
+				F14528C02370B98200D99285 /* Frameworks */,
+				F14528C12370B98200D99285 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ProvaCiro;
+			productName = ProvaCiro;
+			productReference = F14528C32370B98200D99285 /* ProvaCiro.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F14528DC2370B98400D99285 /* ProvaCiroTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F14528F42370B98400D99285 /* Build configuration list for PBXNativeTarget "ProvaCiroTests" */;
+			buildPhases = (
+				F14528D92370B98400D99285 /* Sources */,
+				F14528DA2370B98400D99285 /* Frameworks */,
+				F14528DB2370B98400D99285 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F14528DF2370B98400D99285 /* PBXTargetDependency */,
+			);
+			name = ProvaCiroTests;
+			productName = ProvaCiroTests;
+			productReference = F14528DD2370B98400D99285 /* ProvaCiroTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F14528E72370B98400D99285 /* ProvaCiroUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F14528F72370B98400D99285 /* Build configuration list for PBXNativeTarget "ProvaCiroUITests" */;
+			buildPhases = (
+				F14528E42370B98400D99285 /* Sources */,
+				F14528E52370B98400D99285 /* Frameworks */,
+				F14528E62370B98400D99285 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F14528EA2370B98400D99285 /* PBXTargetDependency */,
+			);
+			name = ProvaCiroUITests;
+			productName = ProvaCiroUITests;
+			productReference = F14528E82370B98400D99285 /* ProvaCiroUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F14528BB2370B98200D99285 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1120;
+				LastUpgradeCheck = 1120;
+				ORGANIZATIONNAME = "Massimo Maddaluno";
+				TargetAttributes = {
+					F14528C22370B98200D99285 = {
+						CreatedOnToolsVersion = 11.2;
+					};
+					F14528DC2370B98400D99285 = {
+						CreatedOnToolsVersion = 11.2;
+						TestTargetID = F14528C22370B98200D99285;
+					};
+					F14528E72370B98400D99285 = {
+						CreatedOnToolsVersion = 11.2;
+						TestTargetID = F14528C22370B98200D99285;
+					};
+				};
+			};
+			buildConfigurationList = F14528BE2370B98200D99285 /* Build configuration list for PBXProject "ProvaCiro" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F14528BA2370B98200D99285;
+			productRefGroup = F14528C42370B98200D99285 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F14528C22370B98200D99285 /* ProvaCiro */,
+				F14528DC2370B98400D99285 /* ProvaCiroTests */,
+				F14528E72370B98400D99285 /* ProvaCiroUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F14528C12370B98200D99285 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F14528D22370B98200D99285 /* Main.storyboard in Resources */,
+				F14528C92370B98200D99285 /* GameScene.sks in Resources */,
+				F14528D42370B98300D99285 /* Assets.xcassets in Resources */,
+				F14528D72370B98300D99285 /* LaunchScreen.storyboard in Resources */,
+				F14528CB2370B98200D99285 /* Actions.sks in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F14528DB2370B98400D99285 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F14528E62370B98400D99285 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F14528BF2370B98200D99285 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F14528CD2370B98200D99285 /* GameScene.swift in Sources */,
+				F14528CF2370B98200D99285 /* GameViewController.swift in Sources */,
+				F14528C72370B98200D99285 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F14528D92370B98400D99285 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F14528E22370B98400D99285 /* ProvaCiroTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F14528E42370B98400D99285 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F14528ED2370B98400D99285 /* ProvaCiroUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F14528DF2370B98400D99285 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F14528C22370B98200D99285 /* ProvaCiro */;
+			targetProxy = F14528DE2370B98400D99285 /* PBXContainerItemProxy */;
+		};
+		F14528EA2370B98400D99285 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F14528C22370B98200D99285 /* ProvaCiro */;
+			targetProxy = F14528E92370B98400D99285 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F14528D02370B98200D99285 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F14528D12370B98200D99285 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F14528D52370B98300D99285 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F14528D62370B98300D99285 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F14528EF2370B98400D99285 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F14528F02370B98400D99285 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F14528F22370B98400D99285 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 87DD57D258;
+				INFOPLIST_FILE = ProvaCiro/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Mad-Max.ProvaCiro";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F14528F32370B98400D99285 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 87DD57D258;
+				INFOPLIST_FILE = ProvaCiro/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Mad-Max.ProvaCiro";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		F14528F52370B98400D99285 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 87DD57D258;
+				INFOPLIST_FILE = ProvaCiroTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Mad-Max.ProvaCiroTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ProvaCiro.app/ProvaCiro";
+			};
+			name = Debug;
+		};
+		F14528F62370B98400D99285 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 87DD57D258;
+				INFOPLIST_FILE = ProvaCiroTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Mad-Max.ProvaCiroTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ProvaCiro.app/ProvaCiro";
+			};
+			name = Release;
+		};
+		F14528F82370B98400D99285 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 87DD57D258;
+				INFOPLIST_FILE = ProvaCiroUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Mad-Max.ProvaCiroUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ProvaCiro;
+			};
+			name = Debug;
+		};
+		F14528F92370B98400D99285 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 87DD57D258;
+				INFOPLIST_FILE = ProvaCiroUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Mad-Max.ProvaCiroUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ProvaCiro;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F14528BE2370B98200D99285 /* Build configuration list for PBXProject "ProvaCiro" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F14528EF2370B98400D99285 /* Debug */,
+				F14528F02370B98400D99285 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F14528F12370B98400D99285 /* Build configuration list for PBXNativeTarget "ProvaCiro" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F14528F22370B98400D99285 /* Debug */,
+				F14528F32370B98400D99285 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F14528F42370B98400D99285 /* Build configuration list for PBXNativeTarget "ProvaCiroTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F14528F52370B98400D99285 /* Debug */,
+				F14528F62370B98400D99285 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F14528F72370B98400D99285 /* Build configuration list for PBXNativeTarget "ProvaCiroUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F14528F82370B98400D99285 /* Debug */,
+				F14528F92370B98400D99285 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F14528BB2370B98200D99285 /* Project object */;
+}
